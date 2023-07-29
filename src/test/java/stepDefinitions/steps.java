@@ -95,13 +95,13 @@ public class steps {
         driver.manage().window().maximize();
     }
 
-    @When("User navigate to MyAccount menu")
-    public void user_navigate_to_my_account() {
-    	hp=new HomePage(driver);
-    	hp.clickMyAccount();
-        logger.info("Clicked on My Account ");
-            
-    }
+	
+	  @When("User navigate to MyAccount menu") 
+	  public void user_navigate_to_my_account() { 
+		  hp=new HomePage(driver); hp.clickMyAccount();
+	      logger.info("Clicked on My Account ");	  
+	  }
+	 
 
     @When("click on Login")
     public void click_on_login() {

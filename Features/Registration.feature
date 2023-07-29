@@ -9,3 +9,4 @@ Feature: Login with Valid Credentials
     And User enters Email as "pavanoltraining@gmail.com" and Password as "test@123"
     And Click on Login button
     Then User navigates to MyAccount Page
+
