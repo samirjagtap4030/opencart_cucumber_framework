@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
                         "json:reports/myreport.json",
                         "rerun:target/rerun.txt",    //Mandatory to capture failures
                 },
-                dryRun=true,
+                dryRun=false,
                 monochrome=true
                 //tags = "@sanity"	//Scenarios tagged with @sanity,
                 //tags = "@sanity and @regression"	//Scenarios tagged with both @sanity and @regression
