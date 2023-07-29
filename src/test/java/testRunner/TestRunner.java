@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         (
                 //features= {".//Features/"},
                 //features= {".//Features/Login.feature"},
-                features= {".//Features/LoginDDT.feature"},
-                //features= {".//Features/LoginDDTExcel.feature"},
+               // features= {".//Features/LoginDDT.feature"},
+                features= {".//Features/LoginDDTExcel.feature"},
                 //features= {".//Features/Login.feature",".//Features/AccountRegistration.feature"},
                 //features="@target/rerun.txt",   // Runs only failures
                 glue="stepDefinitions",
